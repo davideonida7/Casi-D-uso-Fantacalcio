@@ -1,0 +1,218 @@
+Registrazione e Autenticazione:
+
+Descrizione: Permette agli utenti di registrarsi e autenticarsi nell'applicazione.
+Scopo: Fornire accesso personalizzato all'utente.
+Attori: Utente, Sistema.
+Attore Primario: Utente.
+Use Case d'Extend: ---
+Scenario Principale:
+L'utente apre l'applicazione.
+L'utente sceglie di registrarsi o accedere.
+L'utente fornisce le informazioni necessarie.
+Il sistema verifica e autentica l'utente.
+Precondizione: L'applicazione è installata e funzionante.
+Flusso di Eventi: Standard per registrazione e autenticazione.
+Post Condizione: L'utente ha accesso all'applicazione.
+Scenari Alternativi: Errore durante l'autenticazione.
+Flussi Alternativi: L'utente sceglie di autenticarsi con Google/Facebook.
+Eccezioni: Problemi di connessione, errori nel fornire le informazioni necessarie.
+Requisiti Speciali: Connessione Internet.
+Extension Point: ---
+Frequenza Stimata di Utilizzo: Frequente.
+Criticità: Alta.
+
+
+Creazione della Squadra:
+
+Descrizione: Permette agli utenti di creare una squadra di fantacalcio.
+Scopo: Consentire agli utenti di formare la propria squadra virtuale.
+Attori: Utente, Sistema.
+Attore Primario: Utente.
+Use Case d'Extend: ---
+Scenario Principale:
+L'utente accede all'applicazione.
+L'utente seleziona giocatori disponibili.
+L'utente rispetta il budget assegnato per la creazione della squadra.
+Precondizione: L'utente è autenticato.
+Flusso di Eventi: Standard per la creazione della squadra.
+Post Condizione: La squadra dell'utente è creata.
+Scenari Alternativi: Errore nel rispettare il budget.
+Flussi Alternativi: L'utente può utilizzare la funzionalità di selezione automatica.
+Eccezioni: Problemi di connessione, errori nella selezione dei giocatori.
+Requisiti Speciali: ---
+Extension Point: ---
+Frequenza Stimata di Utilizzo: Inizio di ogni stagione.
+Criticità: Media.
+
+
+Gestione della Rosa:
+
+Descrizione: Consente agli utenti di effettuare modifiche alla loro rosa durante la stagione.
+Scopo: Permettere agli utenti di adeguare la loro squadra in risposta alle prestazioni dei giocatori.
+Attori: Utente, Sistema.
+Attore Primario: Utente.
+Use Case d'Extend: ---
+Scenario Principale:
+L'utente accede all'applicazione.
+L'utente effettua trasferimenti, sostituisce giocatori, o fa scambi.
+Precondizione: La stagione è in corso.
+Flusso di Eventi: Standard per la gestione della rosa.
+Post Condizione: Le modifiche alla rosa sono applicate.
+Scenari Alternativi: Errore durante l'operazione di mercato.
+Flussi Alternativi: L'utente può ricevere offerte da altri utenti.
+Eccezioni: Problemi di connessione, errori nelle operazioni di mercato.
+Requisiti Speciali: ---
+Extension Point: ---
+Frequenza Stimata di Utilizzo: Periodica durante la stagione.
+Criticità: Media.
+
+Selezione della Formazione:
+
+Descrizione: Permette agli utenti di definire la formazione prima di ogni giornata di campionato.
+Scopo: Consentire agli utenti di ottimizzare la performance della loro squadra.
+Attori: Utente, Sistema.
+Attore Primario: Utente.
+Use Case d'Extend: ---
+Scenario Principale:
+L'utente accede all'applicazione.
+L'utente sceglie i giocatori titolari, gli eventuali sostituti e il capitano.
+Precondizione: La stagione è in corso, la squadra dell'utente è creata.
+Flusso di Eventi: Standard per la selezione della formazione.
+Post Condizione: La formazione è confermata.
+Scenari Alternativi: Errore nella selezione della formazione.
+Flussi Alternativi: L'utente può utilizzare la funzionalità di selezione automatica.
+Eccezioni: Problemi di connessione, errori nella selezione dei giocatori.
+Requisiti Speciali: ---
+Extension Point: ---
+Frequenza Stimata di Utilizzo: Prima di ogni giornata di campionato.
+Criticità: Alta.
+
+Partecipazione ai Campionati:
+
+Descrizione: Consente agli utenti di iscriversi a campionati o leghe e partecipare alle competizioni.
+Scopo: Offrire un'esper
+ienza competitiva agli utenti.
+
+Attori: Utente, Sistema.
+Attore Primario: Utente.
+Use Case d'Extend: ---
+Scenario Principale:
+L'utente accede all'applicazione.
+L'utente cerca campionati disponibili.
+L'utente si iscrive a un campionato o lega.
+Precondizione: L'utente è autenticato.
+Flusso di Eventi: Standard per la partecipazione ai campionati.
+Post Condizione: L'utente è iscritto a un campionato o lega.
+Scenari Alternativi: Errore durante l'iscrizione.
+Flussi Alternativi: L'utente può creare un campionato privato.
+Eccezioni: Problemi di connessione, errori durante l'iscrizione.
+Requisiti Speciali: ---
+Extension Point: ---
+Frequenza Stimata di Utilizzo: All'inizio della stagione.
+Criticità: Media.
+
+Punteggi e Classifiche:
+
+Descrizione: Permette agli utenti di visualizzare i punteggi ottenuti dai giocatori della loro squadra e la loro posizione nella classifica generale.
+Scopo: Fornire feedback sugli outcome delle partite e sulla posizione dell'utente nella competizione.
+Attori: Utente, Sistema.
+Attore Primario: Utente.
+Use Case d'Extend: ---
+Scenario Principale:
+L'utente accede all'applicazione.
+L'utente visualizza i punteggi dei suoi giocatori e la classifica generale.
+Precondizione: La giornata di campionato è terminata.
+Flusso di Eventi: Standard per la visualizzazione dei punteggi.
+Post Condizione: L'utente conosce i risultati e la sua posizione.
+Scenari Alternativi: ---
+Flussi Alternativi: L'utente può visualizzare statistiche dettagliate.
+Eccezioni: Problemi di connessione, ritardi nell'aggiornamento dei punteggi.
+Requisiti Speciali: ---
+Extension Point: ---
+Frequenza Stimata di Utilizzo: Dopo ogni giornata di campionato.
+Criticità: Media.
+
+Mercato dei Giocatori:
+
+Descrizione: Consente agli utenti di acquistare, vendere o scambiare giocatori per migliorare la propria rosa.
+Scopo: Offrire agli utenti la possibilità di migliorare la qualità della loro squadra.
+Attori: Utente, Sistema.
+Attore Primario: Utente.
+Use Case d'Extend: ---
+Scenario Principale:
+L'utente accede all'applicazione.
+L'utente cerca giocatori disponibili.
+L'utente effettua offerte, partecipa a aste o negozia con altri utenti.
+Precondizione: La finestra di mercato è aperta.
+Flusso di Eventi: Standard per il mercato dei giocatori.
+Post Condizione: Le transazioni sono completate.
+Scenari Alternativi: Errore durante l'operazione di mercato.
+Flussi Alternativi: L'utente può ricevere offerte da altri utenti.
+Eccezioni: Problemi di connessione, errori nelle operazioni di mercato.
+Requisiti Speciali: ---
+Extension Point: ---
+Frequenza Stimata di Utilizzo: Periodica durante la stagione.
+Criticità: Alta.
+
+Notifiche e Aggiornamenti:
+
+Descrizione: Consente agli utenti di ricevere notifiche in tempo reale su eventi importanti.
+Scopo: Informare gli utenti su offerte, aggiornamenti sulla formazione e altri eventi rilevanti.
+Attori: Utente, Sistema.
+Attore Primario: Utente.
+Use Case d'Extend: ---
+Scenario Principale:
+L'utente abilita le notifiche nell'applicazione.
+L'utente riceve notifiche quando si verificano eventi importanti.
+Precondizione: L'utente ha abilitato le notifiche.
+Flusso di Eventi: Standard per la ricezione di notifiche.
+Post Condizione: L'utente è informato sugli eventi.
+Scenari Alternativi: ---
+Flussi Alternativi: L'utente può disabilitare le notifiche.
+Eccezioni: Problemi di connessione.
+Requisiti Speciali: ---
+Extension Point: ---
+Frequenza Stimata di Utilizzo: Variabile in base agli eventi.
+Criticità: Bassa.
+
+Analisi Statistiche:
+
+Descrizione: Consente agli utenti di analizzare le prestazioni dei loro giocatori attraverso statistiche dettagliate.
+Scopo: Fornire informazioni approfondite per prendere decisioni tattiche.
+Attori: Utente, Sistema.
+Attore Primario: Utente.
+Use Case d'Extend: ---
+Scenario Principale:
+L'utente accede all'applicazione.
+L'utente esamina statistiche dettagliate dei suoi giocatori.
+Precondizione:* La stagione è in corso, i dati statistici sono disponibili.
+
+Flusso di Eventi: Standard per l'analisi delle statistiche.
+Post Condizione: L'utente ha informazioni dettagliate sulle prestazioni dei suoi giocatori.
+Scenari Alternativi: ---
+Flussi Alternativi: L'utente può confrontare statistiche tra giocatori.
+Eccezioni: Problemi di connessione, indisponibilità delle statistiche.
+Requisiti Speciali: ---
+Extension Point: ---
+Frequenza Stimata di Utilizzo: Periodica durante la stagione.
+Criticità: Media.
+Fine della Stagione:
+Descrizione: Consente agli utenti di partecipare alle cerimonie di premiazione e preparare la squadra per la successiva stagione.
+Scopo: Concludere la stagione fantacalcistica e preparare la squadra per la successiva.
+Attori: Utente, Sistema.
+Attore Primario: Utente.
+Use Case d'Extend: ---
+Scenario Principale:
+La stagione fantacalcistica giunge al termine.
+L'utente partecipa alle cerimonie di premiazione.
+L'utente prepara la sua squadra per la prossima stagione.
+Precondizione: La stagione è conclusa.
+Flusso di Eventi: Standard per la conclusione della stagione.
+Post Condizione: La stagione è conclusa, e la squadra è pronta per la successiva.
+Scenari Alternativi: ---
+Flussi Alternativi: L'utente può ricevere premi o riconoscimenti.
+Eccezioni: Problemi di connessione durante le cerimonie di premiazione.
+Requisiti Speciali: ---
+Extension Point: ---
+Frequenza Stimata di Utilizzo: Alla fine di ogni stagione.
+Criticità: Media.
