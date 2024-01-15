@@ -1,5 +1,7 @@
 CASI D'USO  APPLICAZIONE FANTACALCIO ONIDA, BAZZURRI, GAGGIOTTI, COSTANTINI 5^CINF
 
+CASI D'USO PER GLI UTENTI:
+
 
 Registrazione e Autenticazione:
 
@@ -219,3 +221,137 @@ Requisiti Speciali: ---
 Extension Point: ---
 Frequenza Stimata di Utilizzo: Alla fine di ogni stagione.
 Criticità: Media.
+
+
+CASI D'USO PER GLI AMMINISTRATORI: 
+
+Gestione degli Utenti:
+
+Scopo: Consente agli amministratori di gestire gli account degli utenti.
+Attori: Amministratore, Sistema.
+Attore Primario: Amministratore.
+Use Case d'Extend: -
+Scenario Principale: Amministratore crea, modifica o disattiva account utente.
+Precondizione: Amministratore autenticato e accesso al pannello di amministrazione.
+Flusso di Eventi: Amministratore modifica account -> Sistema verifica modifiche -> Account utente aggiornato.
+Post Condizione: Account utente gestito con successo.
+Scenari Alternativi: -
+
+
+Configurazione del Sistema:
+
+Scopo: Permette agli amministratori di configurare le impostazioni generali del sistema.
+Attori: Amministratore, Sistema.
+Attore Primario: Amministratore.
+Use Case d'Extend: -
+Scenario Principale: Amministratore modifica le impostazioni globali dell'applicazione.
+Precondizione: Amministratore autenticato e accesso al pannello di amministrazione.
+Flusso di Eventi: Amministratore modifica impostazioni -> Sistema applica modifiche -> Configurazione aggiornata.
+Post Condizione: Configurazione del sistema modificata con successo.
+Scenari Alternativi: -
+
+
+Gestione dei Campionati e delle Leghe:
+
+Scopo: Permette agli amministratori di gestire i campionati e le leghe.
+Attori: Amministratore, Sistema.
+Attore Primario: Amministratore.
+Use Case d'Extend: -
+Scenario Principale: Amministratore crea, modifica o elimina campionati e leghe.
+Precondizione: Amministratore autenticato e accesso al pannello di amministrazione.
+Flusso di Eventi: Amministratore modifica campionati/leghe -> Sistema applica modifiche -> Campionati/Leghe gestiti.
+Post Condizione: Campionati e leghe gestiti con successo.
+Scenari Alternativi: -
+
+
+Monitoraggio delle Attività:
+
+Scopo: Consente agli amministratori di monitorare le attività degli utenti e del sistema.
+Attori: Amministratore, Sistema.
+Attore Primario: Amministratore.
+Use Case d'Extend: -
+Scenario Principale: Amministratore analizza log e report per identificare comportamenti sospetti.
+Precondizione: Amministratore autenticato e accesso al pannello di amministrazione.
+Flusso di Eventi: Amministratore analizza log -> Sistema mostra report -> Attività monitorata.
+Post Condizione: Attività monitorata con successo.
+Scenari Alternativi: -
+
+
+Gestione dei Giocatori e del Mercato:
+
+Scopo: Permette agli amministratori di gestire l'elenco dei giocatori e le operazioni di mercato.
+Attori: Amministratore, Sistema.
+Attore Primario: Amministratore.
+Use Case d'Extend: -
+Scenario Principale: Amministratore aggiorna l'elenco dei giocatori, controlla le operazioni di mercato.
+Precondizione: Amministratore autenticato e accesso al pannello di amministrazione.
+Flusso di Eventi: Amministratore modifica giocatori/mercato -> Sistema applica modifiche -> Elenco giocatori/Mercato gestito.
+Post Condizione: Giocatori e mercato gestiti con successo.
+Scenari Alternativi: -
+
+
+Aggiornamenti e Patch:
+
+Scopo: Consente agli amministratori di applicare aggiornamenti e patch al sistema.
+Attori: Amministratore, Sistema.
+Attore Primario: Amministratore.
+Use Case d'Extend: -
+Scenario Principale: Amministratore applica aggiornamenti e patch.
+Precondizione: Amministratore autenticato e accesso al pannello di amministrazione.
+Flusso di Eventi: Amministratore avvia aggiornamenti -> Sistema applica patch -> Sistema aggiornato.
+Post Condizione: Aggiornamenti applicati con successo.
+Scenari Alternativi: -
+
+
+Gestione delle Penalità:
+
+Scopo: Permette agli amministratori di applicare penalità agli utenti che violano le regole.
+Attori: Amministratore, Sistema.
+Attore Primario: Amministratore.
+Use Case d'Extend: -
+Scenario Principale: Amministratore applica penalità a utenti in violazione delle regole.
+Precondizione: Amministratore autenticato e accesso al pannello di amministrazione.
+Flusso di Eventi: Amministratore applica penalità -> Sistema regist
+ra penalità -> Utenti sanzionati.
+
+Post Condizione: Penalità applicata con successo.
+Scenari Alternativi: -
+
+
+Assistenza agli Utenti:
+
+Scopo: Consente agli amministratori di fornire assistenza e supporto agli utenti.
+Attori: Amministratore, Sistema.
+Attore Primario: Amministratore.
+Use Case d'Extend: -
+Scenario Principale: Amministratore risponde a domande degli utenti, fornisce assistenza per problemi tecnici.
+Precondizione: Amministratore autenticato e accesso al pannello di amministrazione.
+Flusso di Eventi: Utente richiede assistenza -> Amministratore risponde -> Problema risolto.
+Post Condizione: Assistenza fornita con successo.
+Scenari Alternativi: -
+
+
+Backup e Ripristino:
+
+Scopo: Consente agli amministratori di effettuare backup e garantire il ripristino del sistema in caso di emergenza.
+Attori: Amministratore, Sistema.
+Attore Primario: Amministratore.
+Use Case d'Extend: -
+Scenario Principale: Amministratore esegue backup regolare e ripristina il sistema in caso di necessità.
+Precondizione: Amministratore autenticato e accesso al pannello di amministrazione.
+Flusso di Eventi: Amministratore esegue backup -> Sistema salva dati -> Amministratore ripristina sistema.
+Post Condizione: Backup eseguito e sistema ripristinato con successo.
+Scenari Alternativi: -
+
+
+Rapporti e Analisi:
+
+Scopo: Consente agli amministratori di generare report sull'utilizzo del sistema.
+Attori: Amministratore, Sistema.
+Attore Primario: Amministratore.
+Use Case d'Extend: -
+Scenario Principale: Amministratore genera report periodici sull'attività degli utenti, sulle prestazioni del sistema.
+Precondizione: Amministratore autenticato e accesso al pannello di amministrazione.
+Flusso di Eventi: Amministratore genera report -> Sistema mostra dati -> Report creato.
+Post Condizione: Report generato con successo.
+Scenari Alternativi: -
